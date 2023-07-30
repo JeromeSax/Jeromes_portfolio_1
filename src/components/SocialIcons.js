@@ -8,9 +8,13 @@ export default function SocialIcons() {
             <a href="https://twitter.com">
                 <FaTwitter />
             </a>
+           </li>
+           <li> 
             <a href="https://facebook.com">
                 <FaFacebook />
             </a>
+           </li>
+           <li> 
             <a href="https://linked.com">
                 <FaLinkedin />
             </a>

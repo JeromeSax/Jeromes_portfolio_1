@@ -6,7 +6,7 @@ export const StyledSocialIcons = styled.div`
     justify-content: center;
 
     li {
-    list-style: none;
+        list-style: none;
     }
 
     a {
@@ -23,3 +23,4 @@ export const StyledSocialIcons = styled.div`
     }
 
 `
+

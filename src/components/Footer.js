@@ -7,13 +7,14 @@ export default function Footer() {
     return (
         <StyledFooter>
             <Container>
-                <img src="images/logo_white.svg" alt="" />
+                {/* <img src="images/logo_white.svg" alt="" /> */}
 
                 <Flex>
                     <ul>
                         <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        Thank you for visiting my portfolio, where technology and creativity converge.
+                        From coding projects to musical compositions, this space reflects my journey of self-expression and evolution. 
+                        Welcome to a world where coding and creativity intertwine, inviting you to explore, engage, and experience the extraordinary.
                         </li>
                         <li>+1-543-123-4567</li>
                         <li>example@huddle.com</li>
@@ -33,7 +34,7 @@ export default function Footer() {
                     <SocialIcons />
                 </Flex>
 
-                <p>&copy; 2021 Huddle. All rights reserved</p>
+                {/* <p>&copy; 2021 Huddle. All rights reserved</p> */}
             </Container>
         </StyledFooter>
     )

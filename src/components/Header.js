@@ -4,31 +4,41 @@ import { Flex } from './styles/Flex.styled';
 import { Button } from './styles/Button.styled';
 
 export default function Header() {
+  const linkedInUrl = 'https://www.linkedin.com/in/jerome-sloss';
+  const gitHubUrl = 'https://www.github.com/JeromeSax';
+
   return (
     <StyledHeader>
-        <Container>
-            <Nav>
-              <Logo src='./images/logo.svg' alt='' />
-              <Button>Try It Free</Button>
-            </Nav>
+      <Container>
+        <Nav>
+          {/* <Logo src='./images/logo.svg' alt='' /> */}
+          <h1>WELCOME</h1>
+          <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
+            <Button>LinkedIn</Button>
+          </a>
+        </Nav>
 
-            <Flex>
-              <div>
-                <h1>Build The Community Your Fans Will Love</h1>
+        <Flex>
+          <div>
+            <h1>Hey I'm Jerome Sloss</h1>
 
-                <p>
-                Huddle re-imagines the way we build communities. You have a voice,
-                but so does your audience. Create connections with your users as
-                you engage in genuine discussion.
-                </p>
-
-                <Button bg='#ff0099' color='#fff'>
-                Get Started For Free
-                </Button>
-              </div>
-              <Image src='./images/illustration-mockups.svg' alt='' />
-            </Flex>
-        </Container>
+            <p>
+              I am a dedicated software engineer with a passion for creativity that extends beyond coding.
+              Proficient in crafting dynamic webpages and innovative applications,
+              I also channel my talents into creating captivating video games during my leisure time.
+              Beyond the realm of technology, I am a skilled multi-instrumentalist,
+              adept at recording, composing, and scoring original musical pieces.
+              Welcome to my portfolio, where professionalism meets unabashed fun.
+            </p>
+            <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
+            <Button bg='#7B68EE' color='#fff'>
+              Github
+            </Button>
+            </a>
+          </div>
+          <Image src='./images/head-pic.png' alt='' />
+        </Flex>
+      </Container>
     </StyledHeader>
   )
 }

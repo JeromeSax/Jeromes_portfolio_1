@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
     display: flex;
     align-items: center;
-    background-color: #fff;
+    color: white;
+    background-color: #663399;
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(1, 0, 0, 0.15);
     margin: 40px 0;
     padding: 60px;
     flex-direction: ${({layout}) => layout || 'row'};

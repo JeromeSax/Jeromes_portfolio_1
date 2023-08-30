@@ -47,7 +47,7 @@ export default function Header() {
             </Button>
             </a>
           </div>
-          <Image style= {{border:'10px ridge gold', borderRadius:'15px'}} src='./images/head-pic.png' alt='' />
+          <Image src='./images/head-pic.png' alt='' />
         </Flex>
       </Container>
     </StyledHeader>

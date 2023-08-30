@@ -20,7 +20,13 @@ export default function Header() {
 
         <Flex>
           <div>
-            <h1>Hey I'm Jerome Sloss</h1>
+            <h1>Hi I'm Jerome Sloss 
+              <br/>
+              Software Engineer
+              <br/> 
+              Video Game Developer
+              <br/>
+              Multi-Instrumentalist</h1>
 
             <p>
               I am a dedicated software engineer with a passion for creativity that extends beyond coding.
@@ -35,8 +41,13 @@ export default function Header() {
               Github
             </Button>
             </a>
+            <a href={require('../assets/romey-resume.pdf')} target="_blank" rel="noopener noreferrer">
+            <Button bg='#7B68EE' color='#fff'>
+              Resume
+            </Button>
+            </a>
           </div>
-          <Image src='./images/head-pic.png' alt='' />
+          <Image style= {{border:'10px ridge gold', borderRadius:'15px'}} src='./images/head-pic.png' alt='' />
         </Flex>
       </Container>
     </StyledHeader>

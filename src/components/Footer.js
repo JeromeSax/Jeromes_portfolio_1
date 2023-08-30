@@ -16,19 +16,17 @@ export default function Footer() {
                         From coding projects to musical compositions, this space reflects my journey of self-expression and evolution. 
                         Welcome to a world where coding and creativity intertwine, inviting you to explore, engage, and experience the extraordinary.
                         </li>
-                        <li>+1-543-123-4567</li>
-                        <li>example@huddle.com</li>
+                        <li>jeromesloss13@gmail.com</li>
                     </ul>
                     <ul>
-                        <li>About Us</li>
-                        <li>What We Do</li>
+                        <li>About Me</li>
+                        <li>What I Do</li>
                         <li>FAQ</li>
                     </ul>
 
                     <ul>
                         <li>Career</li>
-                        <li>Blog</li>
-                        <li>Contact Us</li>
+                        <li>Contact Me</li>
                     </ul>
 
                     <SocialIcons />

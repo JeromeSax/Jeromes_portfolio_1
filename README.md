@@ -6,10 +6,10 @@ I am a dedicated software engineer with a flair for crafting dynamic webpages, i
 
 Projects
 1. The Choice Within - Interactive Story Game
-Delve into the captivating narrative of "The Choice Within," an interactive story game brought to life using HTML, CSS, and JavaScript. Witness the power of decisions as they shape the course of the story. Play it here.
+Delve into the captivating narrative of "The Choice Within," an interactive story game brought to life using HTML, CSS, and JavaScript. Witness the power of decisions as they shape the course of the story. Play it here https://jeromesax.github.io/Story_Game/.
 
 2. Game Finder Plus - React App
-"Game Finder Plus" simplifies the process of discovering new gaming experiences. This React app is designed to enhance your gaming journey, making it easier to find your next adventure. Explore it here.
+"Game Finder Plus" simplifies the process of discovering new gaming experiences. This React app is designed to enhance your gaming journey, making it easier to find your next adventure. Explore it here https://game-finderplus.netlify.app.
 
 Music
 Unlock the melodies within my journey. My musical explorations extend beyond harmonies, resulting in collaborations and the creation of "Soundbending Vol.1," an album that merges diverse sounds into a singular artistic expression. With almost two decades of saxophone expertise, I've lent my musical talents to collaborations, live performances, and album features. The fusion of music, technology, and creativity continues to fuel my endeavors.

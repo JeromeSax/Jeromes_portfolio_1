@@ -12,10 +12,13 @@ export default function Card({item: { id, title, body, image, image2, image3, im
 
         <div>
             <img src={`./images/${image}`} alt='' />
+            <br/>
             <img src={`./images/${image2}`} alt='' />
+            <br/>
             <img src={`./images/${image3}`} alt='' />
             <img src={`./images/${image4}`} alt='' />
-            <Button>Stuff</Button>
+            <br/>
+            {/* <Button>Stuff</Button> */}
         </div>
   </StyledCard> 
   )

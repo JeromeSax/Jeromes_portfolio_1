@@ -12,9 +12,9 @@ export default function Header() {
       <Container>
         <Nav>
           {/* <Logo src='./images/logo.svg' alt='' /> */}
-          <h1>WELCOME</h1>
+          <h1>PORTFOLIO</h1>
           <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
-            <Button>LinkedIn</Button>
+            <Button bg='#6b5b95' color='white'>LinkedIn</Button>
           </a>
         </Nav>
 
@@ -22,11 +22,14 @@ export default function Header() {
           <div>
             <h1>Hi I'm Jerome Sloss 
               <br/>
-              Software Engineer
+              Software Engineer,
               <br/> 
-              Video Game Developer
+              Video Game Developer,
               <br/>
-              Multi-Instrumentalist</h1>
+              and Multi-Instrumentalist.</h1>
+              <br/>
+              <h2>Based in New Jersey</h2>
+
 
             <p>
               I am a dedicated software engineer with a passion for creativity that extends beyond coding.
@@ -37,12 +40,12 @@ export default function Header() {
               Welcome to my portfolio, where professionalism meets unabashed fun.
             </p>
             <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
-            <Button bg='#7B68EE' color='#fff'>
+            <Button bg='#6b5b95' color='#fff'>
               Github
             </Button>
             </a>
             <a href={require('../assets/romey-resume.pdf')} target="_blank" rel="noopener noreferrer">
-            <Button bg='#7B68EE' color='#fff'>
+            <Button bg='#6b5b95' color='#fff'>
               Resume
             </Button>
             </a>

@@ -20,8 +20,8 @@ const content = [
       id: 3,
       title: 'Music',
       body: "As a multi-instrumentalist with a passion that has spanned 19 years, I've breathed life into melodies with my saxophone and collaborated with diverse talents, producing resonating harmonies. Join me in the symphony of creativity, where I've ventured beyond conventional boundaries. Immerse yourself in the ethereal soundscapes of (Soundbending Vol.1), a joint album that showcases the fusion of art and innovation. Beyond albums, I've delved into the dynamic intersections of music, technology, and video games, curating experiences that transcend genres. From live performances in eclectic venues to features on albums across musical landscapes, my musical journey is one that bridges emotions, genres, and boundaries.",
-      image2: 'nublu.JPG',
-      image3: 'bowery.jpg',
+      // image2: 'nublu.JPG',
+      image3: 'sax1.jpg',
     },
   ]
   

@@ -40,12 +40,12 @@ export default function Header() {
               Welcome to my portfolio, where professionalism meets unabashed fun.
             </p>
             <a href={gitHubUrl} target="_blank" rel="noopener noreferrer">
-            <Button bg='#6b5b95' color='#fff'>
+            <Button style={{marginLeft:'20px'}} bg='#6b5b95' color='#fff'>
               Github
             </Button>
             </a>
             <a href={require('../assets/romey-resume.pdf')} target="_blank" rel="noopener noreferrer">
-            <Button bg='#6b5b95' color='#fff'>
+            <Button style={{marginLeft:'20px'}} bg='#6b5b95' color='#fff'>
               Resume
             </Button>
             </a>

@@ -14,7 +14,6 @@ export default function Footer() {
                         <li>
                         Thank you for visiting my portfolio, where technology and creativity converge.
                         From coding projects to musical compositions, this space reflects my journey of self-expression and evolution. 
-                        Welcome to a world where coding and creativity intertwine, inviting you to explore, engage, and experience the extraordinary.
                         </li>
                         <li>jeromesloss13@gmail.com</li>
                     </ul>

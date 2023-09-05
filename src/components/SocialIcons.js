@@ -1,4 +1,4 @@
-import { FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaSoundcloud, FaSpotify } from 'react-icons/fa';
 import { StyledSocialIcons } from './styles/SocialIcons.styled';
 
 export default function SocialIcons() {
@@ -13,6 +13,16 @@ export default function SocialIcons() {
            <li> 
             <a href="https://www.instagram.com/jeromesloss/"  target="_blank">
                 <FaInstagram />
+            </a>
+        </li>
+           <li> 
+            <a href="https://soundcloud.com/knottyprofessor/reverie-feat-jd"  target="_blank">
+                <FaSoundcloud />
+            </a>
+        </li>
+           <li> 
+            <a href="https://open.spotify.com/artist/5sAaVgSEwibNMOwdOPVL3O"  target="_blank">
+                <FaSpotify />
             </a>
         </li>
     </StyledSocialIcons>
